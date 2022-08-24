@@ -76,3 +76,48 @@ header > ul > li:hover {
 tr td:first-child {
   width: 150px;
 }
+
+#menuDiv {
+  display: flex;
+  flex: 0;
+  position: relative;
+  width: 1000px;
+  gap: 20px;
+  align-items: center;
+}
+
+#menuDiv img {
+  height: 600px;
+  width: auto;
+}
+
+#license {
+  position: absolute;
+  bottom: 2px;
+  left: 2px;
+  color: #bebebe;
+  font-size: 12px;
+}
+
+#license a {
+  color: #bebebe;
+}
+
+#menuDiv table {
+  font-family: 'Playfair Display', serif;
+  color: #474853;
+  font-size: 22px;
+  width: 643px;
+}
+
+#menuDiv table tr {
+  height: 75px;
+}
+
+#menuDiv table tr td {
+  width: min-content;
+}
+
+#menu hr {
+  color: #474853;
+}
