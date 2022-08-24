@@ -108,14 +108,16 @@ tr td:first-child {
   color: #474853;
   font-size: 22px;
   width: 643px;
+  table-layout: fixed;
 }
 
 #menuDiv table tr {
   height: 75px;
 }
 
-#menuDiv table tr td {
-  width: min-content;
+#menuDiv table tr td:nth-child(2) {
+  width: 15px;
+  text-align: end;
 }
 
 #menu hr {
